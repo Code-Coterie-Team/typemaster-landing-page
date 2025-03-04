@@ -73,4 +73,19 @@ a.twobutton{
     border: 1px solid #f16718;
     border-radius: 16px;
     padding-left: 5px;
+    margin:auto;
+    margin-bottom: 20px;
+    
+}
+li{
+    list-style-type: none;
+    text-align: center;
+}
+ul p{
+    color: #999fa1;
+}
+footer{
+    text-align: center;
+    font-size: small;
+    color: #4a4e50;
 }
