@@ -9,6 +9,10 @@ a {
 h1{
     color: style=#d5dceb;
 }
+.bottom1{
+    margin-left: 80%;
+    display: inline-block;
+}
 a.twobutton{
     text-decoration: none;
     border: 15px solid transparent ;
@@ -17,7 +21,6 @@ a.twobutton{
     color: white;
 }
 .img1{
-    display: block;
     border: 1px;
     border-radius: 15px;
     margin-left: 50%;
