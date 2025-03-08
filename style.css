@@ -1,29 +1,46 @@
-a {
+*{
+    font-family: "Barlow";
+}
+a.headerlink {
     text-decoration: none;
     border: 15px solid transparent;
     background-color:#e8eff2 ;
     border-radius: 5px;
     color: black;
     font-size: smaller;
+    margin-left: 80%;
 }
 h1{
     color: style=#d5dceb;
 }
+.firsttxt{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
 a.twobutton{
     text-decoration: none;
-    border: 15px solid transparent ;
+    border: 12px solid transparent ;
     background-color:#f16718 ;
     border-radius: 5px;
     color: white;
+    width: 140px;
+    margin-top: 30px;
+    margin-left: 20px;
 }
 .img1{
-    display: block;
+    display: inline-block;
     border: 1px;
     border-radius: 15px;
     margin-left: 50%;
     width: 600px;
     height: 100%;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,.5);
+    margin-top: 2px;
+    margin-bottom: 60px;
 }
 .p1{
     display: inline-block;
@@ -50,19 +67,8 @@ a.twobutton{
     height: 500px;
     border-radius: 50px;
     margin: 10px 20px;
-    
-
+    background-image: linear-gradient(243,103,24),url(./photo/image-phone-and-keyboard.jpg);
 }
-/* .cover{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ff8800ea; 
-    border-radius: 50px; 
-   
-} */
 .txt1{
     font-size: medium;
     margin-left: 10px;
@@ -75,7 +81,9 @@ a.twobutton{
     padding-left: 5px;
     margin:auto;
     margin-bottom: 20px;
-    
+}
+h3{
+    margin-right: 6%;
 }
 li{
     list-style-type: none;
